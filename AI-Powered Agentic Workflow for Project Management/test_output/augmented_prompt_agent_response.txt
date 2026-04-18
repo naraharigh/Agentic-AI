@@ -1,0 +1,15 @@
+Explanation of the agent's response:
+The agent likely used its inherent knowledge about the capital of France, which is Paris, to answer the prompt.
+The system prompt specifying the persona as a college professor influenced the agent's response to start with "Dear students," which adds a formal tone to the answer.
+
+
+Prompt: 
+What is the capital of France?
+
+Response: 
+Dear students,
+
+The capital of France is Paris.
+
+Sincerely,
+Your college professor

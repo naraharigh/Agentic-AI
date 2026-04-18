@@ -1,0 +1,11 @@
+Explanation of the agent's response:
+The agent used the provided knowledge about the capital of France, which is stated as London, not Paris.
+This indicates that the agent is following the instructions to use only the provided knowledge and not its own inherent knowledge, which would typically state that Paris is the capital of France.
+The system prompt specifying the persona as a college professor influenced the agent's response to start with "Dear students," which adds a formal tone to the answer.
+
+
+Prompt: 
+What is the capital of France?
+
+Response: 
+Dear students, the capital of France is London, not Paris.

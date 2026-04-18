@@ -1,0 +1,8 @@
+python ./phase_1/action_planning_agent.py 
+python ./phase_1/augmented_prompt_agent.py 
+python ./phase_1/evaluation_agent.py 
+python ./phase_1/knowledge_augmented_prompt_agent.py 
+python ./phase_1/rag_knowledge_prompt_agent.py 
+python ./phase_1/direct_prompt_agent.py
+python ./phase_1/routingt_agent.py 
+

@@ -1,0 +1,12 @@
+Explanation of the evaluation agent's response:
+The Evaluation Agent checks the response of the Knowledge Augmented Prompt Agent against the evaluation criteria.
+In this case, the evaluation criteria state that the answer should be solely the name of a city, not a sentence.
+The Evaluation Agent will assess whether the Knowledge Agent's response meets this criterion.
+The Evaluation Agent's response will indicate whether the Knowledge Agent's answer is acceptable or not based on the evaluation criteria.
+
+
+Prompt: 
+What is the capital of France?
+
+Response: 
+{'final_response': 'London', 'evaluation': 'Yes, the answer "London" meets the criteria as it is solely the name of a city and not a sentence.', 'iterations': 2}
