@@ -19,7 +19,7 @@ class LLM:
         tools: Optional[List[Tool]] = None,
         api_key: Optional[str] = None
     ):
-        api_key = 'voc-590237544168865462887669c7d0c41ed347.29711129'
+       
         self.model = model
         self.temperature = temperature
         self.client = OpenAI(api_key=api_key, base_url="https://openai.vocareum.com/v1" ) if api_key else OpenAI()
