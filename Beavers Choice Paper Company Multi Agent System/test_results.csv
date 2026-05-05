@@ -1,0 +1,848 @@
+request_id,request_date,cash_balance,inventory_value,response
+1,2025-04-01,45059.7,4940.299999999999,"### 1. Friendly Response Text
+
+Thank you for your order! We are pleased to confirm your request for paper supplies for the ceremony. Your order will be delivered by April 15, 2025, as requested. Please find the detailed invoice attached below.
+
+### 2. Formatted Invoice (as plain text)
+
+```
+------------------------------------------------------------
+                     Munder Difflin Paper Supply Co.
+------------------------------------------------------------
+Invoice No: INV-2025-001
+Date: 2025-04-01
+
+Bill To:
+Name: <placeholder>
+Address: <placeholder>
+Email: <placeholder>
+
+Items:
+Qty   Description                  Unit Price   Line Total
+------------------------------------------------------------
+200   A4 Glossy Paper              $0.20        $40.00
+100   Heavy Cardstock (White)      $0.15        $15.00
+100   Colored Paper (Assorted)     $0.10        $10.00
+
+Subtotal:                                       $65.00
+Discount (Volume Discount):                     -$5.00
+------------------------------------------------------------
+Total Amount Due:                               $60.00
+
+Expected Delivery Date: 2025-04-15
+
+------------------------------------------------------------
+Thank you for your business!
+------------------------------------------------------------
+```
+
+Please let us know if you have any questions or need further assistance. We look forward to serving you again!"
+2,2025-04-03,45059.7,4940.299999999999,"### 1. Friendly Response Text
+
+Dear Valued Customer,
+
+Thank you for placing your order with Munder Difflin! We are pleased to confirm your purchase of colorful poster paper, streamers, and balloons for the upcoming parade. Your order is scheduled for delivery by April 15, 2025. Please find your detailed invoice attached below.
+
+We appreciate your business and look forward to serving you again!
+
+Best regards,  
+Munder Difflin Paper Supply Company
+
+---
+
+### 2. Formatted Invoice (as plain text)
+
+```
+------------------------------------------------------------
+                      Munder Difflin Paper Supply Co.
+------------------------------------------------------------
+Invoice No: INV-2025-001
+Date: 2025-04-03
+
+Bill To:
+Name: <placeholder>
+Address: <placeholder>
+Email: <placeholder>
+
+Items:
+Qty   Description                 Unit Price   Line Total
+------------------------------------------------------------
+500   Colorful Poster Paper       $1.00        $500.00
+300   Streamers                   $0.50        $150.00
+200   Balloons                    $0.20        $40.00
+
+------------------------------------------------------------
+Subtotal:                                     $690.00
+Discount (Volume Discount):                   -$69.00
+------------------------------------------------------------
+Total Amount Due:                             $621.00
+
+Expected Delivery Date: April 15, 2025
+
+------------------------------------------------------------
+Thank you for your business!
+------------------------------------------------------------
+```
+
+Please let us know if you have any questions or require further assistance."
+3,2025-04-04,45059.7,4940.299999999999,"### 1. Friendly Response Text
+
+Thank you for placing your order with Munder Difflin! We are pleased to confirm your order of 10,000 sheets of A4 paper, 5,000 sheets of A3 paper, and 500 reams of printer paper. Your supplies are scheduled for delivery by April 15, 2025, just in time for your upcoming conference. Please find the detailed invoice attached below. We appreciate your business and look forward to serving you again!
+
+### 2. Formatted Invoice (as plain text)
+
+```
+------------------------------------------------------------
+                        Munder Difflin Paper Supply Co.
+------------------------------------------------------------
+Invoice No: INV-2025-001
+Date: 2025-04-04
+
+Bill To:
+Name: <placeholder>
+Address: <placeholder>
+Email: <placeholder>
+
+Items:
+Qty      Description                 Unit Price     Line Total
+------------------------------------------------------------
+10,000   A4 Paper (80g/m²)           $0.05          $500.00
+5,000    A3 Paper                    $0.07          $350.00
+500      Printer Paper (reams)       $3.00          $1,500.00
+
+------------------------------------------------------------
+Subtotal:                                           $2,350.00
+Discount (Volume on A4 Paper):                      -$50.00
+------------------------------------------------------------
+Total Amount Due:                                   $2,300.00
+
+Expected Delivery Date: April 15, 2025
+
+------------------------------------------------------------
+Thank you for your business!
+------------------------------------------------------------
+```
+"
+4,2025-04-05,44684.7,5027.8,"### 1. Friendly Response Text
+
+Thank you for your order! We are pleased to confirm that your request for 500 sheets of high-quality, recycled cardstock in various colors and 250 sheets of A4 size printer paper has been processed. Your order will be delivered by April 15, 2025. Please find your invoice attached below. We appreciate your business and look forward to serving you again.
+
+### 2. Formatted Invoice (as plain text)
+
+```
+------------------------------------------------------------
+                      Munder Difflin Paper Supply Co.
+------------------------------------------------------------
+Invoice No: INV-2025-001
+Date: 2025-04-05
+
+Bill To:
+Name: <placeholder>
+Address: <placeholder>
+Email: <placeholder>
+
+Items:
+Qty   Description                          Unit Price   Line Total
+-------------------------------------------------------------------
+500   High-Quality Recycled Cardstock      $0.15        $75.00
+250   A4 Size Printer Paper                $0.05        $12.50
+
+Subtotal:                                  $87.50
+Discount:                                  $0.00
+Total Amount Due:                          $87.50
+
+Expected Delivery Date: April 15, 2025
+
+------------------------------------------------------------
+Thank you for your business!
+------------------------------------------------------------
+```"
+5,2025-04-05,44684.7,5027.8,"### 1. Friendly Response Text
+
+Dear Valued Customer,
+
+Thank you for choosing Munder Difflin for your paper supply needs! We are pleased to confirm your order for 500 sheets of 8.5""x11"" colored paper, 300 sheets of cardstock in various colors, and 200 rolls of decorative washi tape. Your supplies will be delivered by April 15, 2025, just in time for your upcoming party. Below, you will find the attached invoice for your records.
+
+We appreciate your business and look forward to serving you again!
+
+Best regards,
+The Munder Difflin Team
+
+### 2. Formatted Invoice (as plain text)
+
+```
+------------------------------------------------------------
+                     Munder Difflin Paper Supply Co.
+------------------------------------------------------------
+Invoice No: INV-2025-001
+Date: 2025-04-05
+
+Bill To:
+Name: <placeholder>
+Address: <placeholder>
+Email: <placeholder>
+
+Items:
+Qty   Description                  Unit Price   Line Total
+------------------------------------------------------------
+500   8.5""x11"" Colored Paper       $0.10        $50.00
+300   Cardstock (Various Colors)   $0.15        $45.00
+200   Decorative Washi Tape        $0.50        $100.00
+
+------------------------------------------------------------
+Subtotal:                                       $195.00
+Discount (5%):                                  -$9.75
+------------------------------------------------------------
+Total Amount Due:                               $185.25
+
+Expected Delivery Date:                         2025-04-15
+
+------------------------------------------------------------
+Thank you for your business!
+------------------------------------------------------------
+```
+
+Please let us know if you have any questions or need further assistance."
+6,2025-04-06,44184.7,5107.8,"### 1. Friendly Response Text
+
+Dear Valued Customer,
+
+Thank you for your recent order with Munder Difflin Paper Supply Company. We are pleased to confirm your order of 500 sheets of colorful construction paper, 300 sheets of white printer paper, and 200 sheets of cardstock in various colors. Your items are scheduled for delivery by April 10, 2025, well ahead of your requested date.
+
+Please find your detailed invoice attached below. We appreciate your business and look forward to serving you again.
+
+Warm regards,
+
+Munder Difflin Paper Supply Company
+
+---
+
+### 2. Formatted Invoice (as plain text)
+
+```
+Invoice No: INV-2025-001
+Date: 2025-04-06
+
+Bill To:
+Name: <placeholder>
+Address: <placeholder>
+Email: <placeholder>
+
+Items:
+Qty   Description                  Unit Price   Line Total
+-----------------------------------------------------------
+500   Colorful Construction Paper  $0.10        $50.00
+300   White Printer Paper          $0.05        $15.00
+200   Cardstock                    $0.15        $30.00
+
+-----------------------------------------------------------
+Subtotal:                                      $95.00
+Discount (5%):                                 -$4.75
+-----------------------------------------------------------
+Total Amount Due:                              $90.25
+
+Expected Delivery Date: 2025-04-10
+
+Thank you for your business!
+```"
+7,2025-04-07,42634.7,5537.8,"### 1. Friendly Response Text
+
+Dear Valued Customer,
+
+Thank you for placing your order with Munder Difflin Paper Supply Company. We are pleased to confirm your order for various paper supplies, which includes glossy A4 paper, matte A3 paper, poster boards, and heavyweight cardstock. Your order is scheduled for delivery by April 11, 2025, well ahead of your requested date of April 15, 2025.
+
+Please find your detailed invoice attached below. We appreciate your business and look forward to serving you again in the future.
+
+Warm regards,
+
+The Munder Difflin Team
+
+### 2. Formatted Invoice (as plain text)
+
+```
+------------------------------------------------------------
+                   Munder Difflin Paper Supply Co.
+------------------------------------------------------------
+Invoice No: INV-2025-047
+Date: 2025-04-07
+
+Bill To:
+Name: <placeholder>
+Address: <placeholder>
+Email: <placeholder>
+
+Items:
+Qty   Description                  Unit Price   Line Total
+------------------------------------------------------------
+500   Glossy A4 Paper              $0.20        $100.00
+1000  Matte A3 Paper               $0.25        $250.00
+300   Poster Boards (24"" x 36"")    $1.00        $300.00
+200   Heavyweight Cardstock        $0.15        $30.00
+
+------------------------------------------------------------
+Subtotal:                                      $680.00
+Discounts Applied:                             -$0.00
+Total Amount Due:                              $680.00
+
+Expected Delivery Date: April 11, 2025
+
+------------------------------------------------------------
+Thank you for your business!
+We look forward to serving you again.
+------------------------------------------------------------
+```
+
+Please let us know if there are any questions or further assistance needed."
+8,2025-04-07,40884.7,5837.8,"### 1. Friendly Response Text
+
+Thank you for placing your order with Munder Difflin Paper Supply Company! We are pleased to confirm your order for the paper supplies you requested. Your items are scheduled to be delivered by April 14, 2025, ensuring they arrive in time for your upcoming ceremony. Please find your detailed invoice attached below. If you have any questions, feel free to reach out.
+
+### 2. Formatted Invoice
+
+```
+------------------------------------------------------------
+Invoice No: INV-2025-001
+Date: 2025-04-07
+
+Bill To:
+Name: <placeholder>
+Address: <placeholder>
+Email: <placeholder>
+
+Items:
+Qty   Description              Unit Price   Line Total
+------------------------------------------------------------
+500   A4 Glossy Paper          $0.20        $100.00
+1000  A4 Matte Paper           $0.20        $200.00
+2000  A5 Colored Paper         $0.10        $200.00
+3000  A4 Recycled Paper        $0.20        $600.00
+
+------------------------------------------------------------
+Subtotal:                                    $1,100.00
+Volume Discount:                             -$110.00
+Total Amount Due:                            $990.00
+
+Expected Delivery Date: April 14, 2025
+
+Thank you for your business!
+------------------------------------------------------------
+```
+
+We appreciate your trust in us and look forward to serving your paper supply needs in the future!"
+9,2025-04-07,40534.7,5837.8,"### 1. Friendly Response Text
+
+Thank you for your order with Munder Difflin! We are pleased to confirm your purchase of paper supplies for the reception. Your order will be delivered by April 10, 2025. Please find the detailed invoice attached below. We appreciate your business!
+
+### 2. Formatted Invoice (as plain text)
+
+```
+------------------------------------------------------------
+                     Munder Difflin Paper Supply Co.
+------------------------------------------------------------
+Invoice No: INV-2025-001
+Date: 2025-04-07
+
+Bill To:
+Name: <placeholder>
+Address: <placeholder>
+Email: <placeholder>
+
+------------------------------------------------------------
+Items:
+Qty   Description                          Unit Price   Line Total
+------------------------------------------------------------
+200   A4 White Printer Paper               $0.05        $10.00
+100   A3 Glossy Paper                      $0.20        $20.00
+50    100% Recycled Kraft Paper Envelopes  $0.10        $5.00
+
+------------------------------------------------------------
+Subtotal:                                  $35.00
+Discount:                                  -$0.00
+Total Amount Due:                          $35.00
+
+Expected Delivery Date: April 10, 2025
+
+------------------------------------------------------------
+Thank you for your business!
+------------------------------------------------------------
+```
+
+Please let us know if you need any further assistance."
+13,2025-04-08,40184.7,5892.8,"### 1. Friendly Response Text
+
+Thank you for placing your order with Munder Difflin Paper Supply Company! We have processed your order for 500 sheets of A4 printing paper and 200 sheets of cardstock. Your supplies are scheduled to be delivered by April 12, 2025. Please find your invoice attached below. We appreciate your business and look forward to serving you again!
+
+### 2. Formatted Invoice (as plain text)
+
+```
+------------------------------------------------------------
+                     Munder Difflin Paper Supply Co.
+------------------------------------------------------------
+Invoice No: INV-2025-001
+Date: 2025-04-08
+
+Bill To:
+Name: <placeholder>
+Address: <placeholder>
+Email: <placeholder>
+
+------------------------------------------------------------
+Items:
+Qty   Description                Unit Price   Line Total
+------------------------------------------------------------
+500   A4 Printing Paper          $0.05        $25.00
+200   Cardstock                  $0.15        $30.00
+
+------------------------------------------------------------
+Subtotal:                                      $55.00
+Discount (10%):                                -$5.50
+------------------------------------------------------------
+Total Amount Due:                              $49.50
+
+Expected Delivery Date: April 12, 2025
+
+------------------------------------------------------------
+Thank you for your business!
+------------------------------------------------------------
+```
+
+Please let us know if you have any questions or need further assistance."
+12,2025-04-08,40184.7,5892.8,"### 1. Friendly Response Text
+
+Dear Valued Customer,
+
+Thank you for your recent order with Munder Difflin! We are pleased to confirm your purchase of 200 sheets of colorful cardstock, 500 sheets of standard printer paper, and 100 paper napkins. Your supplies will be delivered by April 15, 2025, just in time for your upcoming party.
+
+Please find your invoice attached below. We appreciate your business and look forward to serving you again in the future.
+
+Best regards,
+
+Munder Difflin Paper Supply Company
+
+---
+
+### 2. Formatted Invoice (as plain text)
+
+```
+------------------------------------------------------------
+Invoice No: INV-2025-001
+Date: 2025-04-08
+
+Bill To:
+Name: <placeholder>
+Address: <placeholder>
+Email: <placeholder>
+
+Items:
+Qty   Description             Unit Price   Line Total
+------------------------------------------------------------
+200   Colorful Cardstock      $0.15        $30.00
+500   Standard Printer Paper  $0.05        $25.00
+100   Paper Napkins           $0.10        $10.00
+
+------------------------------------------------------------
+Subtotal:                                    $65.00
+Discount (Volume Discount):                  -$0.00
+Total Amount Due:                            $65.00
+
+Expected Delivery Date: April 15, 2025
+
+------------------------------------------------------------
+Thank you for your business!
+------------------------------------------------------------
+```
+
+Note: The discount has been applied directly to the pricing structure, ensuring you receive the best possible rate for your bulk order."
+10,2025-04-08,40184.7,5892.8,"### 1. Friendly Response Text
+
+Thank you for your order! We are pleased to confirm that your order for 500 sheets of high-quality glossy paper and 300 sheets of sturdy cardstock will be delivered by April 15, 2025. An invoice is attached below for your reference.
+
+### 2. Formatted Invoice (as plain text)
+
+```
+------------------------------------------------------------
+                        Munder Difflin Paper Supply Co.
+------------------------------------------------------------
+Invoice No: INV-2025-001
+Date: 2025-04-08
+
+Bill To:
+Name: <placeholder>
+Address: <placeholder>
+Email: <placeholder>
+
+Items:
+Qty   Description                  Unit Price   Line Total
+------------------------------------------------------------
+500   High-Quality Glossy Paper    $0.20        $100.00
+300   Sturdy Cardstock             $0.15        $45.00
+
+Subtotal:                                        $145.00
+
+Total Amount Due:                                $145.00
+
+Expected Delivery Date: April 15, 2025
+
+------------------------------------------------------------
+Thank you for your business!
+We appreciate your trust in Munder Difflin.
+------------------------------------------------------------
+```
+
+If you have any questions or need further assistance, please do not hesitate to reach out."
+11,2025-04-08,39784.7,5892.8,"### 1. Friendly Response Text
+
+Dear Valued Customer,
+
+Thank you for your recent order with Munder Difflin. We are pleased to confirm that your order for 500 sheets of A3 glossy paper and 300 sheets of A4 matte paper has been successfully placed. Your supplies are expected to be delivered by April 12, 2025, well ahead of your required date.
+
+Please find your detailed invoice attached below. We appreciate your business and look forward to serving you again.
+
+Warm regards,
+
+Munder Difflin Paper Supply Co.
+
+---
+
+### 2. Formatted Invoice (as plain text)
+
+```
+------------------------------------------------------------
+                      MUNDER DIFFLIN PAPER SUPPLY CO.
+------------------------------------------------------------
+Invoice No: INV-2025-001
+Date: 2025-04-08
+
+Bill To:
+Name: <placeholder>
+Address: <placeholder>
+Email: <placeholder>
+
+------------------------------------------------------------
+Items:
+Qty   Description                Unit Price   Line Total
+------------------------------------------------------------
+500   A3 Glossy Paper            $0.20        $100.00
+300   A4 Matte Paper             $0.05        $15.00
+
+Subtotal:                                      $115.00
+Discount (Volume Discount):                    $0.00
+Total Amount Due:                              $115.00
+
+Expected Delivery Date:                        2025-04-12
+
+------------------------------------------------------------
+Thank you for your business!
+------------------------------------------------------------
+```
+
+Please let us know if there is anything else we can assist you with."
+14,2025-04-09,39284.7,8217.800000000001,"### 1. Friendly Response Text
+
+Dear Customer,
+
+Thank you for your order with Munder Difflin. We are pleased to confirm your order for 5,000 sheets of A4 paper, 2,000 sheets of poster paper in various colors, and 500 sheets of cardstock. The delivery is scheduled as follows: Cardstock by April 13, 2025, and the A4 and poster paper by April 16, 2025. We apologize for the slight delay in the delivery of the A4 and poster paper.
+
+Please find your detailed invoice attached below. We appreciate your business and look forward to serving you again.
+
+Best regards,  
+Munder Difflin Paper Supply Company
+
+---
+
+### 2. Formatted Invoice
+
+```
+------------------------------------------------------------
+Invoice No: INV-2025-001
+Date: 2025-04-09
+
+Bill To:
+Name: <placeholder>
+Address: <placeholder>
+Email: <placeholder>
+
+------------------------------------------------------------
+Items:
+Qty    Description              Unit Price    Line Total
+------------------------------------------------------------
+5,000  A4 Paper (80g/m²)        $0.05         $250.00
+2,000  Poster Paper (Various)   $1.00         $2,000.00
+500    Cardstock                $0.15         $75.00
+
+------------------------------------------------------------
+Subtotal:                                     $2,325.00
+Discount (5%):                                -$116.25
+------------------------------------------------------------
+Total Amount Due:                             $2,208.75
+
+Expected Delivery Dates:
+- Cardstock: April 13, 2025
+- A4 Paper & Poster Paper: April 16, 2025
+
+------------------------------------------------------------
+Thank you for your business!
+------------------------------------------------------------
+```
+
+Please let us know if you have any questions or require further assistance."
+15,2025-04-12,38434.7,9292.800000000001,"### 1. Friendly Response Text
+
+Thank you for your order with Munder Difflin! We are pleased to confirm your order for high-quality paper supplies, which will be delivered by April 15, 2025. Please find your invoice attached below.
+
+### 2. Formatted Invoice (as plain text)
+
+```
+------------------------------------------------------------
+                          Munder Difflin
+                        Paper Supply Co.
+------------------------------------------------------------
+Invoice No: INV-2025-001
+Date: 2025-04-12
+
+Bill To:
+Name: <placeholder>
+Address: <placeholder>
+Email: <placeholder>
+
+Items:
+Qty     Description                     Unit Price    Line Total
+-----------------------------------------------------------------
+10,000  A4 White Paper                  $0.05         $500.00
+5,000   A3 Colored Paper (Assorted)     $0.10         $500.00
+500     Cardboard for Signage           $0.50         $250.00
+
+Subtotal:                                             $1,250.00
+Discount Applied:                                     -$0.00
+Total Amount Due:                                     $1,250.00
+
+Expected Delivery Date: April 15, 2025
+
+------------------------------------------------------------
+Thank you for your business!
+We appreciate your trust in our products and services.
+------------------------------------------------------------
+```
+
+Please let us know if you have any questions or need further assistance."
+16,2025-04-13,38034.7,9437.800000000001,"### 1. Friendly Response Text
+
+Thank you for your order with Munder Difflin! We are pleased to confirm your purchase of 500 sheets of A4 printer paper, 200 sheets of colorful construction paper, and 100 sheets of poster board. Your supplies will be delivered by April 15, 2025, just in time for your assembly event. Please find your detailed invoice attached below.
+
+### 2. Formatted Invoice (as plain text)
+
+```
+------------------------------------------------------------
+                       Munder Difflin Paper Supply Co.
+------------------------------------------------------------
+Invoice No: INV-2025-001
+Date: 2025-04-13
+
+Bill To:
+Name: <placeholder>
+Address: <placeholder>
+Email: <placeholder>
+
+Items:
+Qty   Description                     Unit Price   Line Total
+------------------------------------------------------------
+500   A4 Printer Paper                $0.05        $25.00
+200   Colorful Construction Paper     $0.10        $20.00
+100   Poster Board                    $1.00        $100.00
+
+------------------------------------------------------------
+Subtotal:                                           $145.00
+Discount (Volume Discount on A4 Paper):             -$2.50
+Total Amount Due:                                   $142.50
+
+Expected Delivery Date: 2025-04-15
+
+------------------------------------------------------------
+Thank you for your business!
+We appreciate your trust in Munder Difflin.
+------------------------------------------------------------
+```
+
+Please let us know if you have any questions or need further assistance. We look forward to serving you again!"
+17,2025-04-14,36934.7,9537.800000000001,"### 1. Friendly Response Text
+
+Dear Customer,
+
+Thank you for placing your order with Munder Difflin Paper Supply Company. We are pleased to confirm your order for paper supplies, which includes A4 white printer paper, A3 colored paper, table napkins, biodegradable paper cups, and plates. While we aim to meet your requested delivery date of April 15, 2025, please note that the delivery is expected by April 18, 2025, for most items, with table napkins arriving by April 21, 2025. 
+
+Attached below is your detailed invoice. We appreciate your understanding and thank you for your business.
+
+Best regards,
+
+Munder Difflin Paper Supply Company
+
+### 2. Formatted Invoice
+
+```
+------------------------------------------------------------
+                      Munder Difflin Paper Supply Company
+------------------------------------------------------------
+Invoice No: INV-2025-001
+Date: 2025-04-14
+
+Bill To:
+Name: <placeholder>
+Address: <placeholder>
+Email: <placeholder>
+
+Items:
+Qty   Description                    Unit Price   Line Total
+------------------------------------------------------------
+1000  A4 White Printer Paper         $0.05        $50.00
+500   A3 Colored Paper               $0.10        $50.00
+2000  Table Napkins                  $0.10        $200.00
+1000  Biodegradable Paper Cups       $0.10        $100.00
+500   Biodegradable Paper Plates     $0.10        $50.00
+
+Subtotal:                                         $450.00
+Discount (10%):                                   -$45.00
+------------------------------------------------------------
+Total Amount Due:                                 $405.00
+
+Expected Delivery Date: April 18, 2025 (most items)
+                        April 21, 2025 (table napkins)
+
+Thank you for your business!
+------------------------------------------------------------
+```
+
+Please let us know if you have any questions or require further assistance."
+18,2025-04-14,36934.7,9537.800000000001,"### 1. Friendly Response Text
+
+Dear Valued Customer,
+
+Thank you for choosing Munder Difflin for your paper supply needs. We are pleased to confirm your order for the following items: 500 sheets of high-quality white cardstock, 1000 sheets of standard printing paper, and 200 sheets of colored paper in assorted colors. Your order will be delivered by April 15, 2025.
+
+Please find your invoice attached below. We appreciate your business and look forward to serving you again in the future.
+
+Best regards,
+
+Munder Difflin Paper Supply Company
+
+---
+
+### 2. Formatted Invoice (as plain text)
+
+```
+Invoice No: INV-2025-001
+Date: 2025-04-14
+
+Bill To:
+Name: <placeholder>
+Address: <placeholder>
+Email: <placeholder>
+
+Items:
+Qty   Description                         Unit Price   Line Total
+-----------------------------------------------------------------
+500   High-Quality White Cardstock        $0.15        $75.00
+1000  Standard Printing Paper             $0.05        $50.00
+200   Colored Paper (Assorted Colors)     $0.10        $20.00
+
+Subtotal:                                 $145.00
+Discount (Volume Discount Applied):       -$0.00
+Total Amount Due:                         $145.00
+
+Expected Delivery Date: April 15, 2025
+
+Thank you for your business!
+```
+
+---"
+19,2025-04-15,36484.7,9687.800000000003,"### 1. Friendly Response Text
+
+Dear Valued Customer,
+
+Thank you for your order with Munder Difflin! We are pleased to confirm your purchase of paper supplies, which includes 2000 sheets of A4 glossy paper, 1500 sheets of A3 matte paper, and 1000 sheets of cardstock in assorted colors. Your order is scheduled for delivery by April 20, 2025.
+
+Please find your detailed invoice attached below. We appreciate your business and look forward to serving you again!
+
+Best regards,
+Munder Difflin Paper Supply Company
+
+### 2. Formatted Invoice (as plain text)
+
+```
+------------------------------------------------------------
+Invoice No: INV-2025-001
+Date: 2025-04-15
+
+Bill To:
+Name: <placeholder>
+Address: <placeholder>
+Email: <placeholder>
+
+Items:
+Qty   Description                  Unit Price   Line Total
+------------------------------------------------------------
+2000  A4 Glossy Paper              $0.20        $400.00
+1500  A3 Matte Paper               $0.20        $300.00
+1000  Cardstock (Assorted Colors)  $0.15        $150.00
+
+------------------------------------------------------------
+Subtotal:                                       $850.00
+Discount (10% on A4 & A3 Paper):                -$70.00
+Total Amount Due:                               $780.00
+
+Expected Delivery Date: April 20, 2025
+
+------------------------------------------------------------
+Thank you for your business!
+------------------------------------------------------------
+```
+
+Please let us know if there are any questions or further assistance needed."
+20,2025-04-17,35534.7,9687.800000000003,"### 1. Friendly Response Text
+
+Dear Valued Customer,
+
+Thank you for placing your order with Munder Difflin Paper Supply Company. We are pleased to confirm your order for 5,000 flyers, 2,000 posters, and 10,000 tickets. Your items are scheduled to be delivered by April 24, 2025, well ahead of your requested deadline.
+
+Please find your detailed invoice attached below. We appreciate your business and look forward to serving you again in the future.
+
+Best regards,
+
+Munder Difflin Paper Supply Company
+
+---
+
+### 2. Formatted Invoice (as plain text)
+
+```
+------------------------------------------------------------
+                     Munder Difflin Paper Supply Company
+------------------------------------------------------------
+Invoice No: INV-2025-001
+Date: 2025-04-17
+
+Bill To:
+Name: <placeholder>
+Address: <placeholder>
+Email: <placeholder>
+
+Items:
+Qty    Description         Unit Price    Line Total
+------------------------------------------------------------
+5,000  Flyers              $0.10         $500.00
+2,000  Posters             $1.00         $2,000.00
+10,000 Tickets             $0.05         $500.00
+
+------------------------------------------------------------
+Subtotal:                                $3,000.00
+Volume Discount (5%):                    -$150.00
+------------------------------------------------------------
+Total Amount Due:                        $2,850.00
+
+Expected Delivery Date: April 24, 2025
+
+------------------------------------------------------------
+Thank you for your business!
+------------------------------------------------------------
+```
+
+Please let us know if there is anything else we can assist you with."
