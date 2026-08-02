@@ -1,0 +1,9 @@
+langchain
+langchain-core 
+langchain-community 
+langchain-openai
+langchain==0.2.17
+langchain-core==0.2.43
+langchain-community==0.2.19
+langchain-openai==0.1.25
+faiss-gpu
