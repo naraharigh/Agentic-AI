@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Query Security Flow" id="query-security-flow">
+    <mxGraphModel dx="3515" dy="1950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5e1;strokeColor=#64748b;fontColor=#172033;fontSize=28;" value="POST /query" vertex="1">
+          <mxGeometry height="75" width="400" x="225" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#64748b;fontColor=#172033;fontSize=28;" value="L1: Pydantic Validation&lt;br&gt;+ regex injection patterns" vertex="1">
+          <mxGeometry height="75" width="400" x="225" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="A" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#475569;fontSize=28;" target="B">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#64748b;fontColor=#172033;fontSize=28;" value="L4a: JWT Auth" vertex="1">
+          <mxGeometry height="75" width="400" x="225" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="B" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#475569;fontSize=28;" target="C">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#64748b;fontColor=#172033;fontSize=28;" value="L4b: Rate Limiting&lt;br&gt;20 req/min" vertex="1">
+          <mxGeometry height="75" width="400" x="225" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="C" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#475569;fontSize=28;" target="D">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#64748b;fontColor=#172033;fontSize=28;" value="L6: Token Budget&lt;br&gt;100k/day" vertex="1">
+          <mxGeometry height="75" width="400" x="225" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="D" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#475569;fontSize=28;" target="E">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#64748b;fontColor=#172033;fontSize=28;" value="L5: Input Restructuring&lt;br&gt;truncate &amp;gt;3k | summarize &amp;gt;6k" vertex="1">
+          <mxGeometry height="75" width="400" x="225" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="E" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#475569;fontSize=28;" target="F">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#64748b;fontColor=#172033;fontSize=28;" value="L2: Input Guard&lt;br&gt;llm-guard scan" vertex="1">
+          <mxGeometry height="75" width="400" x="225" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" edge="1" parent="1" source="F" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#475569;fontSize=28;" target="G">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#64748b;fontColor=#172033;fontSize=28;" value="L7a: Content Moderation&lt;br&gt;+ PII Redaction" vertex="1">
+          <mxGeometry height="75" width="400" x="225" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" edge="1" parent="1" source="G" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#475569;fontSize=28;" target="H">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#64748b;fontColor=#172033;fontSize=28;" value="LangGraph Invoke" vertex="1">
+          <mxGeometry height="75" width="400" x="225" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" edge="1" parent="1" source="H" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#475569;fontSize=28;" target="I">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#64748b;fontColor=#172033;fontSize=28;" value="L3: Hardened System Prompt" vertex="1">
+          <mxGeometry height="75" width="400" x="225" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" edge="1" parent="1" source="I" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#475569;fontSize=28;" target="J">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#64748b;fontColor=#172033;fontSize=28;" value="L8: Spotlighting&lt;br&gt;XML-delimited chunks" vertex="1">
+          <mxGeometry height="75" width="400" x="225" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" edge="1" parent="1" source="J" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#475569;fontSize=28;" target="K">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#64748b;fontColor=#172033;fontSize=28;" value="LLM Generation" vertex="1">
+          <mxGeometry height="75" width="400" x="225" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="edge11" edge="1" parent="1" source="K" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#475569;fontSize=28;" target="L">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#64748b;fontColor=#172033;fontSize=28;" value="L7b: Output Moderation&lt;br&gt;+ PII Redaction" vertex="1">
+          <mxGeometry height="75" width="400" x="225" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="edge12" edge="1" parent="1" source="L" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#475569;fontSize=28;" target="M">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#64748b;fontColor=#172033;fontSize=28;" value="L9: Output Validation&lt;br&gt;Pydantic + LLM retry" vertex="1">
+          <mxGeometry height="75" width="400" x="225" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="edge13" edge="1" parent="1" source="M" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#475569;fontSize=28;" target="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5e1;strokeColor=#64748b;fontColor=#172033;fontSize=28;" value="Return ChatResponse" vertex="1">
+          <mxGeometry height="75" width="400" x="225" y="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="edge14" edge="1" parent="1" source="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#475569;fontSize=28;" target="O">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

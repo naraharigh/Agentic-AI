@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram id="structure" name="Project Structure">
+    <mxGraphModel grid="1" gridSize="10" page="1" pageWidth="1800" pageHeight="1600">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="project" value="&lt;b&gt;My_project/&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="700" width="190" height="65" />
+        </mxCell>
+        <mxCell id="app" value="&lt;b&gt;app/&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="310" y="340" width="240" height="65" />
+        </mxCell>
+        <mxCell id="edge_app" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="project" target="app">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="app0" value="&lt;b&gt;api/&lt;/b&gt;&lt;br/&gt;FastAPI endpoints: auth, query, upload, admin" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef4fc;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="660" y="30" width="560" height="60" />
+        </mxCell>
+        <mxCell id="edge_app0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="app" target="app0">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="app1" value="&lt;b&gt;core/&lt;/b&gt;&lt;br/&gt;LangGraph state machine + retrieval orchestrator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef4fc;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="660" y="110" width="560" height="60" />
+        </mxCell>
+        <mxCell id="edge_app1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="app" target="app1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="app2" value="&lt;b&gt;middleware/&lt;/b&gt;&lt;br/&gt;JWT auth + rate limiting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef4fc;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="660" y="190" width="560" height="60" />
+        </mxCell>
+        <mxCell id="edge_app2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="app" target="app2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="app3" value="&lt;b&gt;security/&lt;/b&gt;&lt;br/&gt;9 security layers as discrete modules" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef4fc;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="660" y="270" width="560" height="60" />
+        </mxCell>
+        <mxCell id="edge_app3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="app" target="app3">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="app4" value="&lt;b&gt;services/&lt;/b&gt;&lt;br/&gt;RAG, SQL, cache, vector, embedding, web search" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef4fc;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="660" y="350" width="560" height="60" />
+        </mxCell>
+        <mxCell id="edge_app4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="app" target="app4">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="app5" value="&lt;b&gt;storage/&lt;/b&gt;&lt;br/&gt;S3 + local storage backends" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef4fc;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="660" y="430" width="560" height="60" />
+        </mxCell>
+        <mxCell id="edge_app5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="app" target="app5">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="app6" value="&lt;b&gt;main.py&lt;/b&gt;&lt;br/&gt;FastAPI app factory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef4fc;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="660" y="510" width="560" height="60" />
+        </mxCell>
+        <mxCell id="edge_app6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="app" target="app6">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="app7" value="&lt;b&gt;models.py&lt;/b&gt;&lt;br/&gt;Pydantic request/response models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef4fc;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="660" y="590" width="560" height="60" />
+        </mxCell>
+        <mxCell id="edge_app7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="app" target="app7">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="app8" value="&lt;b&gt;config.py&lt;/b&gt;&lt;br/&gt;pydantic-settings env loader" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef4fc;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="660" y="670" width="560" height="60" />
+        </mxCell>
+        <mxCell id="edge_app8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="app" target="app8">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="tests" value="&lt;b&gt;tests/&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="310" y="810" width="240" height="60" />
+        </mxCell>
+        <mxCell id="edge_tests" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="project" target="tests">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="unit" value="&lt;b&gt;unit/&lt;/b&gt;&lt;br/&gt;Per-module behavior tests (mocked, fast)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#edf7eb;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="660" y="765" width="560" height="60" />
+        </mxCell>
+        <mxCell id="edge_unit" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="tests" target="unit">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="integration" value="&lt;b&gt;integration/&lt;/b&gt;&lt;br/&gt;Full request/response flows (needs live infrastructure)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#edf7eb;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="660" y="845" width="560" height="60" />
+        </mxCell>
+        <mxCell id="edge_integration" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="tests" target="integration">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="scripts" value="&lt;b&gt;scripts/&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="310" y="985" width="240" height="60" />
+        </mxCell>
+        <mxCell id="edge_scripts" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="project" target="scripts">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="pipeline" value="&lt;b&gt;data_pipeline/&lt;/b&gt;&lt;br/&gt;Download K8s docs, noise corpus, seed SQL DB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e5;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="660" y="940" width="560" height="60" />
+        </mxCell>
+        <mxCell id="edge_pipeline" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="scripts" target="pipeline">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="other" value="&lt;b&gt;...&lt;/b&gt;&lt;br/&gt;Eval, serve, Streamlit demo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e5;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="660" y="1020" width="560" height="60" />
+        </mxCell>
+        <mxCell id="edge_other" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="scripts" target="other">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="seed" value="&lt;b&gt;seed/&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="310" y="1160" width="240" height="60" />
+        </mxCell>
+        <mxCell id="edge_seed" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="project" target="seed">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="docs" value="&lt;b&gt;docs/&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#edf7eb;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="660" y="1120" width="210" height="60" />
+        </mxCell>
+        <mxCell id="edge_docs" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="seed" target="docs">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="true" value="&lt;b&gt;true_data/&lt;/b&gt;&lt;br/&gt;~50 official K8s docs (~30 MB, signal)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#edf7eb;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="970" y="1095" width="570" height="60" />
+        </mxCell>
+        <mxCell id="edge_true" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="docs" target="true">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="noisy" value="&lt;b&gt;noisy_data/&lt;/b&gt;&lt;br/&gt;~950 random PDFs (~120 MB, noise)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#edf7eb;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="970" y="1175" width="570" height="60" />
+        </mxCell>
+        <mxCell id="edge_noisy" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="docs" target="noisy">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="migrations" value="&lt;b&gt;migrations/&lt;/b&gt;&lt;br/&gt;003_seed_k8s_ops.sql (7-table K8s ops schema)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#edf7eb;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="660" y="1260" width="650" height="60" />
+        </mxCell>
+        <mxCell id="edge_migrations" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="seed" target="migrations">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="infra" value="&lt;b&gt;infra/&lt;/b&gt;&lt;br/&gt;CloudFormation for AWS deployment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="310" y="1370" width="470" height="60" />
+        </mxCell>
+        <mxCell id="edge_infra" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="project" target="infra">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="file0" value="&lt;b&gt;.env.example&lt;/b&gt;&lt;br/&gt;Config template" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="310" y="1490" width="330" height="65" />
+        </mxCell>
+        <mxCell id="edge_file0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="project" target="file0">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="file1" value="&lt;b&gt;docker-compose.yml&lt;/b&gt;&lt;br/&gt;Postgres + Qdrant + App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="665" y="1490" width="330" height="65" />
+        </mxCell>
+        <mxCell id="edge_file1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="project" target="file1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="file2" value="&lt;b&gt;pyproject.toml&lt;/b&gt;&lt;br/&gt;Dependencies + tool config" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1020" y="1490" width="330" height="65" />
+        </mxCell>
+        <mxCell id="edge_file2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="project" target="file2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="file3" value="&lt;b&gt;Dockerfile&lt;/b&gt;&lt;br/&gt;Production image" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#64748b;fontColor=#172033;fontSize=14;align=left;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1375" y="1490" width="330" height="65" />
+        </mxCell>
+        <mxCell id="edge_file3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="project" target="file3">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
